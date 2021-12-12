@@ -1,5 +1,5 @@
 <template>
-<div class="main">
+  <div class="main">
     <div id="display" class="display">
       <div class="history">
         <div class="left history-icon">
@@ -115,7 +115,7 @@ export default {
         if(!this.historyExpressions.length && !this.currentExpression) return null;
         if(!this.showExpression){
           if(!this.historyExpressions.length && this.currentExpression) return `Ans = 0`;
-          else display = 'Ans = ' + evaluate(this.historyExpressions[this.historyExpressions.length - 1].replace(' ', '').replace(/×/g, '*').replace(/÷/g, '/'));
+          else display = 'Ans = ' + evaluate(this.historyExpressions[this.historyExpressions.length - 1].toString().replace(' ', '').replace(/×/g, '*').replace(/÷/g, '/'));
         }
         else display = this.historyExpressions[this.historyExpressions.length - 1] + ' =';
         return display;
