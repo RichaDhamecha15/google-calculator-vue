@@ -4,7 +4,7 @@
 
 ```bash
 # clone
-git clone https://RichaDhamecha15@bitbucket.org/RichaDhamecha15/addressbook.git --- change
+git clone https://github.com/RichaDhamecha15/google-calculator-vue.git
 
 # install dependencies
 $ npm install
@@ -17,10 +17,9 @@ $ npm run build
 
 ```
 
-````
-### Deployment ###
+### Deployment
 
-``` bash
+```bash
 
 # run deployment on netlify server
 Add project repo using bitbucket, github or gitlab
@@ -31,15 +30,15 @@ $ npm run build
 
 Drag your build folder to the netlify sites and it will start deploying
 
-````
+```
 
 ### documentation on the solution:
 
--
+- This application is replica of google calculator, with same design. Working operations on this application are `0, 1, 2, 3, 4, 5, 6, 7, 8, 9` and `., +, =, x (multiply), ÷ (divide), AC`. CSS is written in same vue file to have scoped css. There is one object for showing keys divided basically in 2 tables, scientificKeys and digitalKeys. The calcutation string is created and passed to evaluate method from mathjs library which gives the result.
 
 ### how long did you spend creating the application:
 
-- Spent 5 hours
+- Spent 6 hours (Approx 5 hours in coding and 1 hour in documenting)
 
 ### any assumptions made:
 

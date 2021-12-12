@@ -177,7 +177,7 @@ export default {
   width: 100%;
   max-width: 800px;
   height: auto;
-  font-family: sans-serif;
+  font-family: Roboto,Helvetica Neue,Arial,sans-serif;
   display: block;
   margin: 4px;
   &:hover{
@@ -224,6 +224,7 @@ export default {
     font-size: 30px;
     height: 32px;
     vertical-align: bottom;
+    color: #4d5156;
   }
   &.active{
     border: 1px solid #4285f4; 
